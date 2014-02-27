@@ -49,7 +49,6 @@ add4_2:
 	  
 	   addi $sp, $sp, -4
 	   sw $s0, 0($sp)
-	   move $s0, $zero
 	  
 	   add $s0,$a0,$a1
        add $t1,$a2,$a3
