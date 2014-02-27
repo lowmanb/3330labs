@@ -68,16 +68,18 @@ fibne1:					# Assert: n > 1
 	addi $sp, $sp, 4 		# ... from stack
 
 ## Compute fib(n-2)
-	addi $sp, $sp, -8		# push ...
-	sw $ra, 8($sp)			# ... n
-	sw $a0, 4($sp)
-	addi $a0, $a0, -2 		# pass argument n ...
+	
+	addi $sp, $sp, -8		# push n ... 
+	sw $a0, 4($sp)			#...and fib(n-1)	
+	sw $t1, 0($sp)
+	addi $a0, $a0, -2
 	jal fib					# ... to fib
 	move $t2, $v0			# $t2 = fib(n-2)
-	lw $a0, 0($sp)			# pop fib(n-1) ...
-	addi $sp, $sp, 4 		# ... n
-							# ... and return address
-							# ... from stack
+	lw $t1, 0($sp)        	# pop fib(n-1) ...  
+	lw $a0, 4($sp)			# ... n	
+	
+	lw $ra, 8($sp)          # ... and return address 
+	addi $sp, $sp, 12 
 
 ## Return fib(n-1) + fib(n-2)
 	add $v0, $t1, $t2 		# $v0 = fib(n) = fib(n-1) + fib(n-2)
