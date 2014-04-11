@@ -1,0 +1,16 @@
+<smokplafile>
+
+<decodetypes>                 add     sub     and      or       slt      lw      sw       beq      </decodetypes>
+
+<inputsignal>   opcode        100000  100010  100100   100101   101010   100011  101011   000100   </inputsignal>
+
+<outputsignal>  RegDST        1       1       1        1        1        0        X       X        </outputsignal>
+<outputsignal>  RegWrite      1       1       1        1        1        1        0       0        </outputsignal>
+<outputsignal>  ALUsrc        0       0       0        0        0        1        1       0        </outputsignal>
+<outputsignal>  ALUop         010     110     000      001      111      010      010     110      </outputsignal>
+<outputsignal>  MemWrite      0       0       0        0        0        0        1       0        </outputsignal>
+<outputsignal>  MemRead       0       0       0        0        0        1        0       0        </outputsignal>
+<outputsignal>  MemToReg      0       0       0        0        0        1        X       X        </outputsignal>
+
+</smokplafile>
+

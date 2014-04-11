@@ -1,0 +1,28 @@
+#  sample instruction file
+
+@0x300
+0x8d090000  #lw $9, 0($8)                    ; 5: lw  $t1, 0($t0)         # set $t1 constant 4
+0x02108022  #sub $16, $16, $16               ; 4: sub $s0, $s0, $s0	# clear $s0
+0x00000000  #nop
+0x00000000  #nop
+0x01094020  #add $8, $8, $9                  ; 6: add $t0, $t0, $t1       # to = t0+4
+0x00000000  #nop
+0x00000000  #nop
+0x00000000  #nop
+0x8d0a0000  #lw $10, 0($8)                   ; 7: lw  $t2, 0($t0)         # set $t2 = $t0+44
+0x016b5822  #sub $11, $11, $11               ; 8: sub $t3, $t3, $t3       # clear t3
+0x01094020  #add $8, $8, $9                  ; 9: add $t0, $t0, $t1       # to=t0+4
+0x00000000  #nop
+0x00000000  #nop
+0x00000000  #nop
+0x8d120000  #lw $18, 0($8)                  ; 10: lw  $s2, 0($t0)         # read next word
+0x0148602a  #slt $12, $10, $8                ; 12: slt $t4, $t2, $t0      
+0x00000000  #nop
+0x00000000  #nop
+0x02128020  #add $16, $16, $18               ; 11: add $s0, $s0, $s2       # sum
+0x118bfff6  #beq $12, $11, -36 [Loop-0x00400024]; 13: beq $t4, $t3, Loop
+0x01094020  #add $8, $8, $9                  ; 14: add $t0, $t0, $t1
+0x00000000  #nop
+0x00000000  #nop
+0x00000000  #nop
+0xad100000  #sw $16, 0($8)                   ; 15: lw  $s0, 0($t0)   

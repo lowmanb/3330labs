@@ -1,0 +1,10 @@
+<smokplafile>
+
+<decodetypes>                 LW      SW      Beq      add      subtract      AND      OR      slt      </decodetypes>
+
+<inputsignal>   F             XXXXXX  XXXXXX  XXXXXX   100000   100010        100100   100101  101010   </inputsignal>
+<inputsignal>   ALUOp	      00	  00	  01	   10	    10	          10	   10	   10       </inputsignal>
+
+<outputsignal>  ALUCont	      000     000     110      000      001           100      101     111      </outputsignal>
+
+</smokplafile>

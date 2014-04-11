@@ -1,0 +1,23 @@
+# According Figure 4.18 truth table
+
+
+
+<smokplafile>
+
+<decodetypes>              R-format      lw         sw        beq          </decodetypes>
+
+<inputsignal>    Func       000000      100011     101011    000100        </inputsignal>
+<outputsignal>   RegDst       1           0          X          X          </outputsignal>
+<outputsignal>   ALUSrc       0           1          1          0          </outputsignal> 
+<outputsignal>   MemtoReg     0           1          X          X          </outputsignal> 
+<outputsignal>   RegWrite     1           1          0          0          </outputsignal> 
+<outputsignal>   MemRead      0           1          0          0          </outputsignal>   
+<outputsignal>   MemWrite     0           0          1          0          </outputsignal> 
+<outputsignal>   Branch       0           0          0          1          </outputsignal> 
+<outputsignal>   ALUop        10          00         00         01         </outputsignal>
+
+
+</smokplafile>
+
+
+

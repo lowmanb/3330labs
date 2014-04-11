@@ -1,0 +1,4847 @@
+# Created Wed Mar 26 19:02:47 2014
+# by SMOK Version 7.2.2
+<smokfile>
+<version> 7.2.2 </version>
+<container>
+	<type> "SMOK::SMOKMachine" </type>
+	<name> "SMOKMachine" </name>
+	<tag> 004e84c8 </tag>
+	<width> 32 </width>
+	<viewcomponentnames> 1 </viewcomponentnames>
+	<viewpopupinfo> 1 </viewpopupinfo>
+	<viewportnames> 1 </viewportnames>
+	<viewoutputvalues> 1 </viewoutputvalues>
+	<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+	<viewconnectionlabels> 0 </viewconnectionlabels>
+	<viewishidden> 0 </viewishidden>
+	<basesize> 850.000000 1100.000000 </basesize>
+	<localposition> 0.000000 0.124953 </localposition>
+	<traceactivity> 1 </traceactivity>
+	<component>
+		<type> "SMOK::Shifter" </type>
+		<tag> 004e8860 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 0 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 65.000000 25.000000 </basesize>
+		<localposition> 0.199475 0.474648 </localposition>
+		<traceactivity> 1 </traceactivity>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<name> "L/R" </name>
+			<tag> 004e8b10 </tag>
+			<width> 1 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.123077 0.000000 </localposition>
+			<portnumber> 0 </portnumber>
+		</inputport>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<name> "Amt" </name>
+			<tag> 004e8e30 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.423077 0.000000 </localposition>
+			<portnumber> 1 </portnumber>
+		</inputport>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<name> "Data" </name>
+			<tag> 004e9138 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.773077 0.000000 </localposition>
+			<portnumber> 2 </portnumber>
+		</inputport>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<tag> 004e9438 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.423077 0.560000 </localposition>
+			<portnumber> 0 </portnumber>
+		</outputport>
+	</component>
+	<component>
+		<type> "SMOK::MUX" </type>
+		<tag> 004e9810 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 0 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 70.000000 22.000000 </basesize>
+		<localposition> 0.435696 0.484789 </localposition>
+		<traceactivity> 1 </traceactivity>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<name> "S" </name>
+			<tag> 004e9ac0 </tag>
+			<width> 1 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.857143 0.545455 </localposition>
+			<portnumber> 0 </portnumber>
+		</inputport>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<name> "0" </name>
+			<tag> 004e9df8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.237345 0.000000 </localposition>
+			<portnumber> 1 </portnumber>
+		</inputport>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<name> "1" </name>
+			<tag> 004ea100 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.523060 0.050704 </localposition>
+			<portnumber> 2 </portnumber>
+		</inputport>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<tag> 004ea400 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.428571 0.500000 </localposition>
+			<portnumber> 0 </portnumber>
+		</outputport>
+	</component>
+	<component>
+		<type> "SMOK::MUX" </type>
+		<tag> 004ea7d8 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 0 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 70.000000 22.000000 </basesize>
+		<localposition> 0.068267 0.660079 </localposition>
+		<traceactivity> 1 </traceactivity>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<name> "S" </name>
+			<tag> 004eaa88 </tag>
+			<width> 1 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.857143 0.545455 </localposition>
+			<portnumber> 0 </portnumber>
+		</inputport>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<name> "0" </name>
+			<tag> 004eadc0 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.428571 0.000000 </localposition>
+			<portnumber> 1 </portnumber>
+		</inputport>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<name> "1" </name>
+			<tag> 004eb0c8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.714286 0.000000 </localposition>
+			<portnumber> 2 </portnumber>
+		</inputport>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<tag> 004eb3c8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.428571 0.500000 </localposition>
+			<portnumber> 0 </portnumber>
+		</outputport>
+	</component>
+	<component>
+		<type> "SMOK::Adder" </type>
+		<tag> 004eb788 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 0 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 100.000000 40.000000 </basesize>
+		<localposition> 0.128955 0.578154 </localposition>
+		<traceactivity> 1 </traceactivity>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<tag> 004eba38 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.283333 0.000000 </localposition>
+			<portnumber> 0 </portnumber>
+		</inputport>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<tag> 004ebd58 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.616667 0.000000 </localposition>
+			<portnumber> 1 </portnumber>
+		</inputport>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<tag> 004ec058 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.450000 0.725000 </localposition>
+			<portnumber> 0 </portnumber>
+		</outputport>
+	</component>
+	<component>
+		<type> "SMOK::MUX" </type>
+		<tag> 004ec410 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 0 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 70.000000 22.000000 </basesize>
+		<localposition> 0.437008 0.265748 </localposition>
+		<localscale> 1.004346 </localscale>
+		<traceactivity> 1 </traceactivity>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<name> "S" </name>
+			<tag> 004ec6c0 </tag>
+			<width> 1 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.857143 0.545455 </localposition>
+			<portnumber> 0 </portnumber>
+		</inputport>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<name> "0" </name>
+			<tag> 004ec9f8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.240938 0.000000 </localposition>
+			<portnumber> 1 </portnumber>
+		</inputport>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<name> "1" </name>
+			<tag> 004ecd00 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.493443 0.000000 </localposition>
+			<portnumber> 2 </portnumber>
+		</inputport>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<tag> 004ed000 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.428571 0.500000 </localposition>
+			<portnumber> 0 </portnumber>
+		</outputport>
+	</component>
+	<component>
+		<type> "SMOK::TitleBox" </type>
+		<name> "SMOKMachine" </name>
+		<tag> 004ed3c0 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 55.000000 550.000000 </basesize>
+		<localposition> 0.956280 0.727068 </localposition>
+		<localscale> 0.533695 </localscale>
+	</component>
+	<component>
+		<type> "SMOK::DebugOutput" </type>
+		<name> "Instruction #" </name>
+		<tag> 004ee460 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 25.000000 80.000000 </basesize>
+		<localposition> 0.853140 0.050949 </localposition>
+		<traceactivity> 1 </traceactivity>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<tag> 004ee710 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.300000 0.000000 </localposition>
+			<portnumber> 0 </portnumber>
+		</inputport>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<name> "D" </name>
+			<tag> 004eea30 </tag>
+			<width> 1 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.600000 0.437500 </localposition>
+			<portnumber> 1 </portnumber>
+		</inputport>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<tag> 004eed30 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.300000 0.862500 </localposition>
+			<portnumber> 0 </portnumber>
+		</outputport>
+	</component>
+	<component>
+		<type> "SMOK::ConstantReg" </type>
+		<name> "0 For Left" </name>
+		<tag> 004ef528 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 0 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 25.000000 80.000000 </basesize>
+		<localposition> 0.206037 0.411775 </localposition>
+		<localscale> 0.341864 </localscale>
+		<traceactivity> 1 </traceactivity>
+		<initialvalue> 0 </initialvalue>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<tag> 004ef7d8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.300000 0.862500 </localposition>
+			<portnumber> 0 </portnumber>
+		</outputport>
+	</component>
+	<component>
+		<type> "SMOK::ConstantReg" </type>
+		<name> "shift 2" </name>
+		<tag> 004efb38 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 0 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 25.000000 80.000000 </basesize>
+		<localposition> 0.234908 0.411775 </localposition>
+		<localscale> 0.358596 </localscale>
+		<traceactivity> 1 </traceactivity>
+		<initialvalue> 2 </initialvalue>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<tag> 004efde8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.300000 0.862500 </localposition>
+			<portnumber> 0 </portnumber>
+		</outputport>
+	</component>
+	<component>
+		<type> "SMOK::PasserelleInput" </type>
+		<name> "get 5-0" </name>
+		<tag> 004f21d8 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 0 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 32.000000 32.000000 </basesize>
+		<localposition> 0.686352 0.349916 </localposition>
+		<localscale> 0.442257 </localscale>
+		<traceactivity> 1 </traceactivity>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<tag> 004f24b0 </tag>
+			<width> 16 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.343750 0.031250 </localposition>
+			<portnumber> 0 </portnumber>
+		</inputport>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<tag> 004f27c8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.343750 0.656250 </localposition>
+			<portnumber> 0 </portnumber>
+		</outputport>
+	</component>
+	<component>
+		<type> "SMOK::AndGate" </type>
+		<tag> 004f34d8 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 0 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 40.000000 40.000000 </basesize>
+		<localposition> 0.227034 0.659210 </localposition>
+		<localscale> 0.609580 </localscale>
+		<traceactivity> 1 </traceactivity>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<tag> 004f3788 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.025000 0.025000 </localposition>
+			<portnumber> 0 </portnumber>
+		</inputport>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<tag> 004f3aa8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.750000 0.025000 </localposition>
+			<portnumber> 1 </portnumber>
+		</inputport>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<tag> 004f3da8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.375000 0.725000 </localposition>
+			<portnumber> 0 </portnumber>
+		</outputport>
+	</component>
+	<component>
+		<type> "SMOK::MUX" </type>
+		<tag> 004f4160 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 0 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 70.000000 22.000000 </basesize>
+		<localposition> 0.409449 0.955662 </localposition>
+		<traceactivity> 1 </traceactivity>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<name> "S" </name>
+			<tag> 004f4410 </tag>
+			<width> 1 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.857143 0.393343 </localposition>
+			<portnumber> 0 </portnumber>
+		</inputport>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<name> "0" </name>
+			<tag> 004f4748 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.667604 0.000000 </localposition>
+			<portnumber> 1 </portnumber>
+		</inputport>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<name> "1" </name>
+			<tag> 004f4a50 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.156543 0.152112 </localposition>
+			<portnumber> 2 </portnumber>
+		</inputport>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<tag> 004f4d50 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.428571 0.500000 </localposition>
+			<portnumber> 0 </portnumber>
+		</outputport>
+	</component>
+	<container>
+		<type> "SMOK::Container" </type>
+		<name> "SMOKMachine" </name>
+		<tag> 004f5a58 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 850.000000 1100.000000 </basesize>
+		<localposition> 0.319715 0.506092 </localposition>
+		<localscale> 0.200412 </localscale>
+		<traceactivity> 1 </traceactivity>
+		<component>
+			<type> "SMOK::TitleBox" </type>
+			<name> "SMOKMachine" </name>
+			<tag> 004f5da8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 55.000000 550.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleOutput" </type>
+			<name> "result 0?" </name>
+			<tag> 004f6080 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.292457 0.689417 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 004f6358 </tag>
+				<width> 1 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 004f6670 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleInput" </type>
+			<name> "Input A" </name>
+			<tag> 004f69f8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.314440 0.141271 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 004f6cd0 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 004f6fe8 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleInput" </type>
+			<name> "Input B" </name>
+			<tag> 004f7370 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.430381 0.141271 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 004f7648 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 004f7960 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleOutput" </type>
+			<name> "result" </name>
+			<tag> 004f7ce8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.428807 0.667655 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 004f7fc0 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 004f82d8 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<connection>
+			<tag> 004de5d0 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 004fa220 </fromtag>
+			<totag> 004f6358 </totag>
+			<relpath>
+				0.690326 0.306537 2 0
+				0.624390 0.306537 0 1
+				0.624390 0.307264 1 1
+				0.427349 0.307264 0 1
+				0.427349 0.351843 1 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004d16a0 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 004f7960 </fromtag>
+			<totag> 004f9600 </totag>
+			<relpath>
+				0.397804 0.450392 2 0
+				0.373488 0.450392 0 1
+				0.373488 0.451680 1 1
+				0.179453 0.451680 0 1
+				0.179453 0.444461 1 1
+				0.162122 0.444461 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004d54c0 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 004f8c50 </fromtag>
+			<totag> 004f9908 </totag>
+			<relpath>
+				0.450652 0.463715 2 0
+				0.450652 0.543272 1 1
+				0.450701 0.543272 0 1
+				0.450701 0.773892 1 1
+				0.421040 0.773892 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004d6820 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 004f9f10 </fromtag>
+			<totag> 004f7fc0 </totag>
+			<relpath>
+				0.668564 0.442887 2 0
+				0.630647 0.442887 0 1
+				0.630647 0.443483 1 1
+				0.513305 0.443483 0 1
+				0.513305 0.411057 1 1
+				0.491343 0.411057 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004d5aa0 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 004f6fe8 </fromtag>
+			<totag> 004f92e0 </totag>
+			<relpath>
+				0.397804 0.371722 2 0
+				0.385646 0.371722 0 1
+				0.385646 0.328568 1 1
+				0.179453 0.328568 0 1
+				0.179453 0.328520 1 1
+				0.162122 0.328520 0 0
+			</relpath>
+		</connection>
+		<component>
+			<type> "SMOK::PasserelleInput" </type>
+			<name> "Operation?" </name>
+			<tag> 004f8660 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.759812 0.400189 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 004f8938 </tag>
+				<width> 4 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 004f8c50 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::ALU" </type>
+			<name> "ALU 0" </name>
+			<tag> 004f8fb8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 100.000000 85.000000 </basesize>
+			<localposition> 0.338731 0.397804 </localposition>
+			<localscale> 1.337382 </localscale>
+			<traceactivity> 1 </traceactivity>
+			<aluops> 8 "+" "-" "*" "/" "&" "|" "^" "~|" </aluops>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 004f92e0 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.200000 0.000000 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 004f9600 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.700000 0.000000 </localposition>
+				<portnumber> 1 </portnumber>
+			</inputport>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<name> "Op" </name>
+				<tag> 004f9908 </tag>
+				<width> 3 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.775000 0.500000 </localposition>
+				<portnumber> 2 </portnumber>
+			</inputport>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<name> "IsL" </name>
+				<tag> 004f9c10 </tag>
+				<width> 1 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.775000 0.870588 </localposition>
+				<portnumber> 3 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 004f9f10 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.450000 0.882353 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<name> "Z" </name>
+				<tag> 004fa220 </tag>
+				<width> 1 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.083333 0.274510 </localposition>
+				<portnumber> 1 </portnumber>
+			</outputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<name> "C" </name>
+				<tag> 004fa518 </tag>
+				<width> 1 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.166667 0.607843 </localposition>
+				<portnumber> 2 </portnumber>
+			</outputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<name> "Ex" </name>
+				<tag> 004fa810 </tag>
+				<width> 1 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.900000 0.274510 </localposition>
+				<portnumber> 3 </portnumber>
+			</outputport>
+		</component>
+	</container>
+	<container>
+		<type> "SMOK::Container" </type>
+		<name> "SMOKMachine" </name>
+		<tag> 004fac20 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 850.000000 1100.000000 </basesize>
+		<localposition> 0.271851 0.000000 </localposition>
+		<localscale> 0.275140 </localscale>
+		<traceactivity> 1 </traceactivity>
+		<component>
+			<type> "SMOK::TitleBox" </type>
+			<name> "SMOKMachine" </name>
+			<tag> 004faf70 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 55.000000 550.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+		</component>
+		<component>
+			<type> "SMOK::ControlRegister" </type>
+			<name> "ControlRegister 0" </name>
+			<tag> 004fb270 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 1 </viewishidden>
+			<basesize> 55.000000 35.000000 </basesize>
+			<localposition> 0.721467 0.146248 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<initialvalue> 0 </initialvalue>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<name> "Reset" </name>
+				<tag> 004fb570 </tag>
+				<width> 1 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 1 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.818182 0.190476 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<name> "Stall" </name>
+				<tag> 004fb890 </tag>
+				<width> 1 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 1 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.818182 0.523803 </localposition>
+				<portnumber> 1 </portnumber>
+			</inputport>
+		</component>
+		<component>
+			<type> "SMOK::ConstantReg" </type>
+			<name> "1" </name>
+			<tag> 004fbc18 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 25.000000 80.000000 </basesize>
+			<localposition> 0.748737 0.111626 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<initialvalue> 1 </initialvalue>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 004fbec8 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.300000 0.862500 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::Adder" </type>
+			<name> "Adder 0" </name>
+			<tag> 004fc228 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 100.000000 40.000000 </basesize>
+			<localposition> 0.400818 0.418427 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 004fc4d8 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.283333 0.000000 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 004fc7f8 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.616667 0.000000 </localposition>
+				<portnumber> 1 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 004fcaf8 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.450000 0.725000 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::ConstantReg" </type>
+			<name> "1" </name>
+			<tag> 004fce98 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 25.000000 80.000000 </basesize>
+			<localposition> 0.421192 0.245510 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<initialvalue> 4 </initialvalue>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 004fd148 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.300000 0.862500 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::IF" </type>
+			<name> "Cont" </name>
+			<tag> 004fd4b0 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 70.000000 40.000000 </basesize>
+			<localposition> 0.641203 0.506891 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<name> "Mem" </name>
+				<tag> 004fd760 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.258571 0.000000 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<name> "PC" </name>
+				<tag> 004fda80 </tag>
+				<width> 16 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.557143 0.000000 </localposition>
+				<portnumber> 1 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 004fdd80 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.428571 0.725000 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::Register" </type>
+			<name> "Curr Instruction" </name>
+			<tag> 004fe120 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 25.000000 80.000000 </basesize>
+			<localposition> 0.663466 0.269757 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<initialvalue> 768 </initialvalue>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 004fe3d8 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.000000 0.000000 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<name> "W" </name>
+				<tag> 004fe6f8 </tag>
+				<width> 1 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.600000 0.000000 </localposition>
+				<portnumber> 1 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 004fe9f8 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.300000 0.862500 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleOutput" </type>
+			<name> "PasserelleOutput 12" </name>
+			<tag> 0050f570 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.846452 0.795132 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 0050f848 </tag>
+				<width> 16 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 0050fb60 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleOutput" </type>
+			<name> "rd" </name>
+			<tag> 0050fee8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.750938 0.793019 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 005101c0 </tag>
+				<width> 5 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+				<frombit> 11 </frombit>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 005104d8 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleOutput" </type>
+			<name> "rt" </name>
+			<tag> 00510860 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.669248 0.790783 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 00510b38 </tag>
+				<width> 5 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+				<frombit> 16 </frombit>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 00510e50 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleOutput" </type>
+			<name> "rs" </name>
+			<tag> 005111d8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.581543 0.792556 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 005114b0 </tag>
+				<width> 5 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+				<frombit> 21 </frombit>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 005117c8 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleOutput" </type>
+			<name> "op" </name>
+			<tag> 00511b50 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.924195 0.415152 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 00511e28 </tag>
+				<width> 6 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+				<frombit> 26 </frombit>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 00512140 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<connection>
+			<tag> 004d5da0 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 004fdd80 </fromtag>
+			<totag> 005101c0 </totag>
+			<relpath>
+				0.793928 0.765018 2 0
+				0.753543 0.765018 0 1
+				0.753543 0.732144 1 1
+				0.552346 0.732144 0 1
+				0.552346 0.677636 1 1
+				0.535015 0.677636 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004dc3b8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 004fdd80 </fromtag>
+			<totag> 005114b0 </totag>
+			<relpath>
+				0.793465 0.595623 2 0
+				0.729806 0.595623 0 1
+				0.729806 0.643954 1 1
+				0.552346 0.643954 0 1
+				0.552346 0.677636 1 1
+				0.535015 0.677636 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004d8c70 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 004fe9f8 </fromtag>
+			<totag> 004fda80 </totag>
+			<relpath>
+				0.506891 0.688224 2 0
+				0.488709 0.688224 0 1
+				0.488709 0.673656 1 1
+				0.378496 0.673656 0 1
+				0.378496 0.673428 1 1
+				0.334245 0.673428 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004d8f88 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 004fbec8 </fromtag>
+			<totag> 004fe6f8 </totag>
+			<relpath>
+				0.270637 0.683391 2 0
+				0.250578 0.683391 0 1
+				0.250578 0.704292 1 1
+				0.225769 0.704292 0 1
+				0.225769 0.758699 1 1
+				0.176114 0.758699 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004d9230 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 004fd148 </fromtag>
+			<totag> 004fc4d8 </totag>
+			<relpath>
+				0.418427 0.435290 2 0
+				0.409336 0.435290 0 1
+				0.409336 0.436030 1 1
+				0.327328 0.436030 0 1
+				0.327328 0.431154 1 1
+				0.309997 0.431154 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004d9580 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 004fe9f8 </fromtag>
+			<totag> 004fc7f8 </totag>
+			<relpath>
+				0.418427 0.474506 2 0
+				0.371330 0.474506 0 1
+				0.371330 0.578711 1 1
+				0.370520 0.578711 0 1
+				0.370520 0.673428 1 1
+				0.334245 0.673428 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004d9860 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 0050f178 </fromtag>
+			<totag> 004fd760 </totag>
+			<relpath>
+				0.506891 0.663636 2 0
+				0.497800 0.663636 0 1
+				0.497800 0.607863 1 1
+				0.497044 0.607863 0 1
+				0.497044 0.572280 1 1
+				0.455784 0.572280 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004d9b90 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 004fdd80 </fromtag>
+			<totag> 0050f848 </totag>
+			<relpath>
+				0.796041 0.860532 2 0
+				0.770088 0.860532 0 1
+				0.770088 0.864150 1 1
+				0.552346 0.864150 0 1
+				0.552346 0.677636 1 1
+				0.535015 0.677636 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004d9ec8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 004fdd80 </fromtag>
+			<totag> 00511e28 </totag>
+			<relpath>
+				0.416062 0.938275 2 0
+				0.401387 0.938275 0 1
+				0.401387 0.803160 1 1
+				0.552346 0.803160 0 1
+				0.552346 0.677636 1 1
+				0.535015 0.677636 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 0047dec0 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 004fdd80 </fromtag>
+			<totag> 00510b38 </totag>
+			<relpath>
+				0.791692 0.683328 2 0
+				0.752777 0.683328 0 1
+				0.752777 0.684581 1 1
+				0.552346 0.684581 0 1
+				0.552346 0.677636 1 1
+				0.535015 0.677636 0 0
+			</relpath>
+		</connection>
+		<component>
+			<type> "SMOK::Memory" </type>
+			<name> "Mem" </name>
+			<tag> 004fede0 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 50.000000 50.000000 </basesize>
+			<localposition> 0.547612 0.418569 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<intparm> 65536 </intparm>
+			<loadedfrom> "Z:\Users\ben\Documents\CS3330\3330labs\lab4\instruction.smokmem" </loadedfrom>
+			<loadedfromrelative> ".\instruction.smokmem" </loadedfromrelative>
+			<endianness> 1 </endianness>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 0050f178 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.400000 0.780000 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+	</container>
+	<container>
+		<type> "SMOK::Container" </type>
+		<name> "SMOKMachine" </name>
+		<tag> 005124c8 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 850.000000 1100.000000 </basesize>
+		<localposition> 0.279528 0.685782 </localposition>
+		<localscale> 0.261680 </localscale>
+		<traceactivity> 1 </traceactivity>
+		<component>
+			<type> "SMOK::MemoryInterface" </type>
+			<name> "MemoryInterface 0" </name>
+			<tag> 00512800 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 120.000000 70.000000 </basesize>
+			<localposition> 0.461434 0.532415 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<name> "Mem" </name>
+				<tag> 00512ad8 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.125000 0.014286 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<name> "Addr" </name>
+				<tag> 00512df8 </tag>
+				<width> 16 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.291667 0.014286 </localposition>
+				<portnumber> 1 </portnumber>
+			</inputport>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<name> "Data" </name>
+				<tag> 00513100 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.458333 0.014286 </localposition>
+				<portnumber> 2 </portnumber>
+			</inputport>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<name> "R" </name>
+				<tag> 00513408 </tag>
+				<width> 1 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.625000 0.014286 </localposition>
+				<portnumber> 3 </portnumber>
+			</inputport>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<name> "W" </name>
+				<tag> 00513710 </tag>
+				<width> 1 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.791667 0.014286 </localposition>
+				<portnumber> 4 </portnumber>
+			</inputport>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<name> "#B" </name>
+				<tag> 00513a20 </tag>
+				<width> 2 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.908333 0.428571 </localposition>
+				<portnumber> 5 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<name> "Sz" </name>
+				<tag> 00513d20 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.250000 0.842857 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<name> "Val" </name>
+				<tag> 00514030 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.700000 0.842857 </localposition>
+				<portnumber> 1 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleInput" </type>
+			<name> "Data" </name>
+			<tag> 00514478 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.497970 0.336880 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 00514750 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 00514a68 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleInput" </type>
+			<name> "Addr" </name>
+			<tag> 00514df0 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.430311 0.337926 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 005150c8 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 005153e0 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleOutput" </type>
+			<name> "Sz" </name>
+			<tag> 00515768 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.460081 0.666257 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 00515a40 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 00515d58 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::TitleBox" </type>
+			<name> "SMOKMachine" </name>
+			<tag> 005160d8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 55.000000 550.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleInput" </type>
+			<name> "W" </name>
+			<tag> 005163b0 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.612769 0.337926 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 00516688 </tag>
+				<width> 1 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 005169a0 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleInput" </type>
+			<name> "R" </name>
+			<tag> 00516d28 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.552788 0.333938 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 00517000 </tag>
+				<width> 1 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 00517318 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleOutput" </type>
+			<name> "Val" </name>
+			<tag> 00527e08 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.552097 0.664165 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 005280e0 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 005283f8 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<connection>
+			<tag> 004da210 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 005153e0 </fromtag>
+			<totag> 00512df8 </totag>
+			<relpath>
+				0.533324 0.503749 2 0
+				0.483973 0.503749 0 1
+				0.483973 0.478814 1 1
+				0.345848 0.478814 0 1
+				0.345848 0.444391 1 1
+				0.358777 0.444391 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004da7a8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 00514a68 </fromtag>
+			<totag> 00513100 </totag>
+			<relpath>
+				0.533324 0.527279 2 0
+				0.474882 0.527279 0 1
+				0.474882 0.524408 1 1
+				0.344802 0.524408 0 1
+				0.344802 0.512050 1 1
+				0.357731 0.512050 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004e14d8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 00513d20 </fromtag>
+			<totag> 00515a40 </totag>
+			<relpath>
+				0.667166 0.474161 2 0
+				0.626906 0.474161 0 1
+				0.626906 0.490758 1 1
+				0.574882 0.490758 0 1
+				0.574882 0.497867 1 1
+				0.587812 0.497867 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004e1808 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 00514030 </fromtag>
+			<totag> 005280e0 </totag>
+			<relpath>
+				0.665074 0.566177 2 0
+				0.624814 0.566177 0 1
+				0.624814 0.567241 1 1
+				0.583973 0.567241 0 1
+				0.583973 0.561396 1 1
+				0.587812 0.561396 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004e1ae8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 00527a38 </fromtag>
+			<totag> 00512ad8 </totag>
+			<relpath>
+				0.533324 0.480220 2 0
+				0.493064 0.480220 0 1
+				0.493064 0.483845 1 1
+				0.493185 0.483845 0 1
+				0.493185 0.388610 1 1
+				0.575952 0.388610 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004e1e38 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 00517318 </fromtag>
+			<totag> 00513408 </totag>
+			<relpath>
+				0.533324 0.550808 2 0
+				0.465791 0.550808 0 1
+				0.465791 0.570679 1 1
+				0.345848 0.570679 0 1
+				0.345848 0.566868 1 1
+				0.354789 0.566868 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004e2150 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 005169a0 </fromtag>
+			<totag> 00513710 </totag>
+			<relpath>
+				0.533324 0.574338 2 0
+				0.490601 0.574338 0 1
+				0.490601 0.616950 1 1
+				0.345848 0.616950 0 1
+				0.345848 0.626849 1 1
+				0.358777 0.626849 0 0
+			</relpath>
+		</connection>
+		<component>
+			<type> "SMOK::Memory" </type>
+			<name> "Memory 0" </name>
+			<tag> 005176a0 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 50.000000 50.000000 </basesize>
+			<localposition> 0.363942 0.538737 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<intparm> 65536 </intparm>
+			<loadedfrom> "Z:\Users\ben\Documents\CS3330\3330labs\lab4\DataMem.smokmem" </loadedfrom>
+			<loadedfromrelative> ".\DataMem.smokmem" </loadedfromrelative>
+			<endianness> 0 </endianness>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 00527a38 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.400000 0.780000 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+	</container>
+	<connection>
+		<tag> 00456488 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004f56e8 </fromtag>
+		<totag> 004e9138 </totag>
+		<relpath>
+			0.474648 0.259732 2 0
+			0.447375 0.259732 0 1
+			0.447375 0.440330 1 1
+			0.447984 0.440330 0 1
+			0.447984 0.602256 1 1
+			0.431668 0.602256 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 00456868 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004e9438 </fromtag>
+		<totag> 004ebd58 </totag>
+		<relpath>
+			0.578154 0.202643 2 0
+			0.559972 0.202643 0 1
+			0.559972 0.208113 1 1
+			0.534860 0.208113 0 1
+			0.534860 0.232967 1 1
+			0.489136 0.232967 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004d23d8 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004fcaf8 </fromtag>
+		<totag> 004eba38 </totag>
+		<relpath>
+			0.578154 0.163427 2 0
+			0.569063 0.163427 0 1
+			0.569063 0.169995 1 1
+			0.196589 0.169995 0 1
+			0.196589 0.397012 1 1
+			0.122864 0.397012 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004865d0 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004eb3c8 </fromtag>
+		<totag> 004fe3d8 </totag>
+		<relpath>
+			0.074221 0.454710 2 0
+			0.053383 0.454710 0 1
+			0.053383 0.018988 1 1
+			0.689170 0.018988 0 1
+			0.689170 0.104700 1 1
+			0.671839 0.104700 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004862f0 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004ec058 </fromtag>
+		<totag> 004eb0c8 </totag>
+		<relpath>
+			0.660079 0.128229 2 0
+			0.632806 0.128229 0 1
+			0.632806 0.132817 1 1
+			0.627664 0.132817 0 1
+			0.627664 0.183035 1 1
+			0.606278 0.183035 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004de420 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 00529398 </fromtag>
+		<totag> 00514750 </totag>
+		<relpath>
+			0.774175 0.413521 2 0
+			0.729981 0.413521 0 1
+			0.729981 0.563753 1 1
+			0.434677 0.563753 0 1
+			0.434677 0.441454 1 1
+			0.431209 0.441454 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004714b0 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004f82d8 </fromtag>
+		<totag> 005150c8 </totag>
+		<relpath>
+			0.774449 0.395816 2 0
+			0.771832 0.395816 0 1
+			0.771832 0.395367 1 1
+			0.696225 0.395367 0 1
+			0.696225 0.408474 1 1
+			0.644077 0.408474 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 00471da8 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004ea400 </fromtag>
+		<totag> 004f7648 </totag>
+		<relpath>
+			0.534586 0.408790 2 0
+			0.529540 0.408790 0 1
+			0.529540 0.408927 1 1
+			0.514894 0.408927 0 1
+			0.514894 0.472129 1 1
+			0.496549 0.472129 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004720c0 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 00529d10 </fromtag>
+		<totag> 004f6cd0 </totag>
+		<relpath>
+			0.534586 0.385554 2 0
+			0.532582 0.385554 0 1
+			0.532582 0.386072 1 1
+			0.473183 0.386072 0 1
+			0.473183 0.420123 1 1
+			0.430166 0.420123 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004723d8 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 005117c8 </fromtag>
+		<totag> 0052b660 </totag>
+		<relpath>
+			0.340006 0.408513 2 0
+			0.341048 0.408513 0 1
+			0.341048 0.408813 1 1
+			0.238710 0.408813 0 1
+			0.238710 0.435731 1 1
+			0.223801 0.435731 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004726f0 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 005104d8 </fromtag>
+		<totag> 004ecd00 </totag>
+		<relpath>
+			0.265748 0.478965 2 0
+			0.247023 0.478965 0 1
+			0.247023 0.483961 1 1
+			0.228697 0.483961 0 1
+			0.228697 0.482338 1 1
+			0.223928 0.482338 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004cc9e0 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004ef7d8 </fromtag>
+		<totag> 004e8b10 </totag>
+		<relpath>
+			0.474648 0.210026 2 0
+			0.465557 0.210026 0 1
+			0.465557 0.212917 1 1
+			0.439746 0.212917 0 1
+			0.439746 0.209442 1 1
+			0.433821 0.209442 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004ddb00 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004efde8 </fromtag>
+		<totag> 004e8e30 </totag>
+		<relpath>
+			0.474648 0.232967 2 0
+			0.456466 0.232967 0 1
+			0.456466 0.237634 1 1
+			0.441115 0.237634 0 1
+			0.441115 0.238481 1 1
+			0.434900 0.238481 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004cd010 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004ed000 </fromtag>
+		<totag> 0052ace8 </totag>
+		<relpath>
+			0.340215 0.441184 2 0
+			0.341256 0.441184 0 1
+			0.341256 0.439818 1 1
+			0.300865 0.439818 0 1
+			0.300865 0.473599 1 1
+			0.277559 0.473599 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004cd328 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004f4d50 </fromtag>
+		<totag> 0052a370 </totag>
+		<relpath>
+			0.340215 0.456035 2 0
+			0.308806 0.456035 0 1
+			0.308806 0.642125 1 1
+			0.988809 0.642125 0 1
+			0.988809 0.445882 1 1
+			0.967422 0.445882 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004cd640 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 00510e50 </fromtag>
+		<totag> 0052bfd8 </totag>
+		<relpath>
+			0.339798 0.426334 2 0
+			0.298248 0.426334 0 1
+			0.298248 0.427165 1 1
+			0.247349 0.427165 0 1
+			0.247349 0.459862 1 1
+			0.223313 0.459862 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004cd958 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 0 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 00510e50 </fromtag>
+		<totag> 004ec9f8 </totag>
+		<relpath>
+			0.265748 0.458080 2 0
+			0.251544 0.458080 0 1
+			0.251544 0.462662 1 1
+			0.228081 0.462662 0 1
+			0.228081 0.459862 1 1
+			0.223313 0.459862 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004cdc70 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004f82d8 </fromtag>
+		<totag> 004f4748 </totag>
+		<relpath>
+			0.955662 0.465567 2 0
+			0.932410 0.465567 0 1
+			0.932410 0.470708 1 1
+			0.671888 0.470708 0 1
+			0.671888 0.408474 1 1
+			0.644077 0.408474 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004cdf88 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004fcaf8 </fromtag>
+		<totag> 004eadc0 </totag>
+		<relpath>
+			0.660079 0.104700 2 0
+			0.641897 0.104700 0 1
+			0.641897 0.109008 1 1
+			0.196340 0.109008 0 1
+			0.196340 0.397012 1 1
+			0.122864 0.397012 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004ce2a0 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004f1738 </fromtag>
+		<totag> 00516688 </totag>
+		<relpath>
+			0.774449 0.443562 2 0
+			0.771832 0.443562 0 1
+			0.771832 0.622662 1 1
+			0.772429 0.622662 0 1
+			0.772429 0.794466 1 1
+			0.191450 0.794466 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004ce5b8 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004f1430 </fromtag>
+		<totag> 00517000 </totag>
+		<relpath>
+			0.773405 0.427866 2 0
+			0.761662 0.427866 0 1
+			0.761662 0.612461 1 1
+			0.762324 0.612461 0 1
+			0.762324 0.789760 1 1
+			0.191450 0.789760 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004ceeb0 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 0 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004f0b48 </fromtag>
+		<totag> 004e9ac0 </totag>
+		<relpath>
+			0.497458 0.507423 2 0
+			0.513880 0.507423 0 1
+			0.513880 0.646932 1 1
+			0.513982 0.646932 0 1
+			0.513982 0.775642 1 1
+			0.191450 0.775642 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004cf1c8 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 0 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004f0e40 </fromtag>
+		<totag> 004f4410 </totag>
+		<relpath>
+			0.964409 0.482315 2 0
+			0.964409 0.503566 1 1
+			0.968253 0.503566 0 1
+			0.968253 0.780348 1 1
+			0.191450 0.780348 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004cf250 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 0 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004f04b0 </fromtag>
+		<totag> 004ec6c0 </totag>
+		<relpath>
+			0.278473 0.509047 2 0
+			0.294965 0.509047 0 1
+			0.294965 0.645402 1 1
+			0.294977 0.645402 0 1
+			0.294977 0.770936 1 1
+			0.191450 0.770936 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004cf4f8 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004f1138 </fromtag>
+		<totag> 0052c950 </totag>
+		<relpath>
+			0.325453 0.511933 2 0
+			0.323452 0.511933 0 1
+			0.323452 0.651996 1 1
+			0.323264 0.651996 0 1
+			0.323264 0.785054 1 1
+			0.191450 0.785054 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004cfac0 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 0 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004f3da8 </fromtag>
+		<totag> 004eaa88 </totag>
+		<relpath>
+			0.672748 0.139994 2 0
+			0.689170 0.139994 0 1
+			0.689170 0.195682 1 1
+			0.688947 0.195682 0 1
+			0.688947 0.238485 1 1
+			0.676354 0.238485 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004cfdd8 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 0050fb60 </fromtag>
+		<totag> 004f24b0 </totag>
+		<relpath>
+			0.350319 0.692579 2 0
+			0.265784 0.692579 0 1
+			0.265784 0.692238 1 1
+			0.243475 0.692238 0 1
+			0.243475 0.508618 1 1
+			0.224510 0.508618 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004d00f0 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 0 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004f27c8 </fromtag>
+		<totag> 004f2e28 </totag>
+		<relpath>
+			0.369586 0.694845 2 0
+			0.365163 0.694845 0 1
+			0.365163 0.694677 1 1
+			0.366802 0.694677 0 1
+			0.366802 0.694845 1 1
+			0.362639 0.694845 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004d0720 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 00512140 </fromtag>
+		<totag> 004f0830 </totag>
+		<relpath>
+			0.163326 0.786935 2 0
+			0.135982 0.786935 0 1
+			0.135982 0.659643 1 1
+			0.136899 0.659643 0 1
+			0.136899 0.531389 1 1
+			0.122096 0.531389 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 00456f98 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004fe9f8 </fromtag>
+		<totag> 004ee710 </totag>
+		<relpath>
+			0.050949 0.866076 2 0
+			0.021576 0.866076 0 1
+			0.021576 0.539129 1 1
+			0.100495 0.539129 0 1
+			0.100495 0.457956 1 1
+			0.093229 0.457956 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004cf828 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 0 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004f1a30 </fromtag>
+		<totag> 004f3aa8 </totag>
+		<relpath>
+			0.660301 0.249937 2 0
+			0.660301 0.272688 1 1
+			0.660845 0.272688 0 1
+			0.660845 0.799172 1 1
+			0.191450 0.799172 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004d0d98 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 0050fb60 </fromtag>
+		<totag> 004f53d0 </totag>
+		<relpath>
+			0.368089 0.602256 2 0
+			0.277977 0.602256 0 1
+			0.277977 0.601414 1 1
+			0.244156 0.601414 0 1
+			0.244156 0.508618 1 1
+			0.224510 0.508618 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004d32a8 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 0 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004f6670 </fromtag>
+		<totag> 004f3788 </totag>
+		<relpath>
+			0.659764 0.228445 2 0
+			0.651640 0.228445 0 1
+			0.651640 0.308030 1 1
+			0.651911 0.308030 0 1
+			0.651911 0.381148 1 1
+			0.648438 0.381148 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004ddb98 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 0 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 005283f8 </fromtag>
+		<totag> 004f4a50 </totag>
+		<relpath>
+			0.958704 0.428223 2 0
+			0.928389 0.428223 0 1
+			0.928389 0.428575 1 1
+			0.869572 0.428575 0 1
+			0.869572 0.428926 1 1
+			0.866955 0.428926 0 0
+		</relpath>
+	</connection>
+	<component>
+		<type> "SMOK::SignExtend" </type>
+		<name> "SignExtend" </name>
+		<tag> 004f5118 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 25.000000 80.000000 </basesize>
+		<localposition> 0.592294 0.367180 </localposition>
+		<traceactivity> 1 </traceactivity>
+		<intparm> 15 </intparm>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<tag> 004f53d0 </tag>
+			<width> 16 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.300000 0.012500 </localposition>
+			<portnumber> 0 </portnumber>
+		</inputport>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<tag> 004f56e8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.300000 0.862500 </localposition>
+			<portnumber> 0 </portnumber>
+		</outputport>
+	</component>
+	<connection>
+		<tag> 00485f08 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.479910 0.431668 </localposition>
+		<fromtag> 004f56e8 </fromtag>
+		<totag> 004ea100 </totag>
+		<relpath>
+			0.485803 0.479910 2 0
+			0.460558 0.479910 0 1
+			0.460558 0.480682 1 1
+			0.447984 0.480682 0 1
+			0.447984 0.602256 1 1
+			0.431668 0.602256 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 00485fc0 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.441454 0.431209 </localposition>
+		<fromtag> 00529398 </fromtag>
+		<totag> 004e9df8 </totag>
+		<relpath>
+			0.484789 0.456381 2 0
+			0.465593 0.456381 0 1
+			0.465593 0.457485 1 1
+			0.434677 0.457485 0 1
+			0.434677 0.441454 1 1
+			0.431209 0.441454 0 0
+		</relpath>
+	</connection>
+	<container>
+		<type> "SMOK::Container" </type>
+		<name> "SMOKMachine" </name>
+		<tag> 00528780 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 850.000000 1100.000000 </basesize>
+		<localposition> 0.346024 0.289234 </localposition>
+		<localscale> 0.200077 </localscale>
+		<traceactivity> 1 </traceactivity>
+		<component>
+			<type> "SMOK::TitleBox" </type>
+			<name> "SMOKMachine" </name>
+			<tag> 00528ad0 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 55.000000 550.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleOutput" </type>
+			<name> "R1" </name>
+			<tag> 00528da8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.462888 0.688750 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 00529080 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 00529398 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleOutput" </type>
+			<name> "R0" </name>
+			<tag> 00529720 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.356275 0.683536 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 005299f8 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 00529d10 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleInput" </type>
+			<name> "W0D" </name>
+			<tag> 0052a098 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.535762 0.253895 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 0052a370 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 0052a688 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleInput" </type>
+			<name> "WO#" </name>
+			<tag> 0052aa10 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.461538 0.253895 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 0052ace8 </tag>
+				<width> 5 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 0052b000 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleInput" </type>
+			<name> "R0#" </name>
+			<tag> 0052b388 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.298246 0.252852 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 0052b660 </tag>
+				<width> 5 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 0052b978 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleInput" </type>
+			<name> "R1#" </name>
+			<tag> 0052bd00 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.387314 0.251810 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 0052bfd8 </tag>
+				<width> 5 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 0052c2f0 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<component>
+			<type> "SMOK::PasserelleInput" </type>
+			<name> "W0E" </name>
+			<tag> 0052c678 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 32.000000 32.000000 </basesize>
+			<localposition> 0.815148 0.180112 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<inputport>
+				<type> "SMOK::InputPort" </type>
+				<tag> 0052c950 </tag>
+				<width> 1 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.031250 </localposition>
+				<portnumber> 0 </portnumber>
+			</inputport>
+			<outputport>
+				<type> "SMOK::OutputPort" </type>
+				<tag> 0052cc68 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<isshadow> 1 </isshadow>
+				<basesize> 10.000000 10.000000 </basesize>
+				<localposition> 0.343750 0.656250 </localposition>
+				<portnumber> 0 </portnumber>
+			</outputport>
+		</component>
+		<connection>
+			<tag> 004e2468 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 0052ef90 </fromtag>
+			<totag> 00529080 </totag>
+			<relpath>
+				0.689659 0.476968 2 0
+				0.648374 0.476968 0 1
+				0.648374 0.424097 1 1
+				0.523980 0.424097 0 1
+				0.523980 0.416968 1 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004e3b68 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 0052da08 </fromtag>
+			<totag> 005299f8 </totag>
+			<relpath>
+				0.684445 0.370355 2 0
+				0.616047 0.370355 0 1
+				0.616047 0.406450 1 1
+				0.523980 0.406450 0 1
+				0.523980 0.400671 1 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004e3bf0 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 0052cc68 </fromtag>
+			<totag> 0052e658 </totag>
+			<relpath>
+				0.463951 0.469457 2 0
+				0.497646 0.469457 0 1
+				0.497646 0.549570 1 1
+				0.497473 0.549570 0 1
+				0.497473 0.829228 1 1
+				0.200963 0.829228 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004e3c78 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 0052b978 </fromtag>
+			<totag> 0052d6f0 </totag>
+			<relpath>
+				0.462162 0.400671 2 0
+				0.462162 0.388906 1 1
+				0.356840 0.388906 0 1
+				0.356840 0.312326 1 1
+				0.273703 0.312326 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004e7700 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 0052c2f0 </fromtag>
+			<totag> 0052ec78 </totag>
+			<relpath>
+				0.462162 0.416968 2 0
+				0.462162 0.405204 1 1
+				0.289992 0.405204 0 1
+				0.289992 0.401394 1 1
+				0.272661 0.401394 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004e79c8 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 0052b000 </fromtag>
+			<totag> 0052e030 </totag>
+			<relpath>
+				0.463951 0.434163 2 0
+				0.479464 0.434163 0 1
+				0.479464 0.436408 1 1
+				0.292077 0.436408 0 1
+				0.292077 0.475618 1 1
+				0.274746 0.475618 0 0
+			</relpath>
+		</connection>
+		<connection>
+			<tag> 004e7c58 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 1.000000 1.000000 </basesize>
+			<localposition> 0.000000 0.000000 </localposition>
+			<fromtag> 0052a688 </fromtag>
+			<totag> 0052e350 </totag>
+			<relpath>
+				0.463951 0.451810 2 0
+				0.415769 0.451810 0 1
+				0.415769 0.505569 1 1
+				0.292077 0.505569 0 1
+				0.292077 0.549842 1 1
+				0.274746 0.549842 0 0
+			</relpath>
+		</connection>
+		<registerfile>
+			<type> "SMOK::RegisterFile" </type>
+			<name> "RegisterFile 0" </name>
+			<tag> 0052cff0 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<basesize> 90.000000 80.000000 </basesize>
+			<localposition> 0.385965 0.460373 </localposition>
+			<traceactivity> 1 </traceactivity>
+			<numregisters> 32 </numregisters>
+			<initialvalue> -572662307 </initialvalue>
+			<component>
+				<type> "SMOK::ReadPortSet" </type>
+				<name> "ReadPortSet 0" </name>
+				<tag> 0052d3f0 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 80.000000 </basesize>
+				<localposition> 0.138889 0.000000 </localposition>
+				<traceactivity> 1 </traceactivity>
+				<inputport>
+					<type> "SMOK::InputPort" </type>
+					<name> "R0#" </name>
+					<tag> 0052d6f0 </tag>
+					<width> 5 </width>
+					<viewcomponentnames> 1 </viewcomponentnames>
+					<viewpopupinfo> 1 </viewpopupinfo>
+					<viewportnames> 1 </viewportnames>
+					<viewoutputvalues> 1 </viewoutputvalues>
+					<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+					<viewconnectionlabels> 0 </viewconnectionlabels>
+					<viewishidden> 0 </viewishidden>
+					<basesize> 10.000000 10.000000 </basesize>
+					<localposition> 0.000000 0.012500 </localposition>
+					<portnumber> 0 </portnumber>
+				</inputport>
+				<outputport>
+					<type> "SMOK::OutputPort" </type>
+					<name> "R0" </name>
+					<tag> 0052da08 </tag>
+					<width> 32 </width>
+					<viewcomponentnames> 1 </viewcomponentnames>
+					<viewpopupinfo> 1 </viewpopupinfo>
+					<viewportnames> 1 </viewportnames>
+					<viewoutputvalues> 1 </viewoutputvalues>
+					<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+					<viewconnectionlabels> 0 </viewconnectionlabels>
+					<viewishidden> 0 </viewishidden>
+					<basesize> 10.000000 10.000000 </basesize>
+					<localposition> 0.000000 0.862500 </localposition>
+					<portnumber> 0 </portnumber>
+				</outputport>
+			</component>
+			<component>
+				<type> "SMOK::WritePortSet" </type>
+				<name> "WritePortSet 0" </name>
+				<tag> 0052dd18 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 40.000000 10.000000 </basesize>
+				<localposition> 0.444444 0.012500 </localposition>
+				<traceactivity> 1 </traceactivity>
+				<inputport>
+					<type> "SMOK::InputPort" </type>
+					<name> "W0#" </name>
+					<tag> 0052e030 </tag>
+					<width> 5 </width>
+					<viewcomponentnames> 1 </viewcomponentnames>
+					<viewpopupinfo> 1 </viewpopupinfo>
+					<viewportnames> 1 </viewportnames>
+					<viewoutputvalues> 1 </viewoutputvalues>
+					<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+					<viewconnectionlabels> 0 </viewconnectionlabels>
+					<viewishidden> 0 </viewishidden>
+					<basesize> 10.000000 10.000000 </basesize>
+					<localposition> 0.000000 0.100000 </localposition>
+					<portnumber> 0 </portnumber>
+				</inputport>
+				<inputport>
+					<type> "SMOK::InputPort" </type>
+					<name> "W0D" </name>
+					<tag> 0052e350 </tag>
+					<width> 32 </width>
+					<viewcomponentnames> 1 </viewcomponentnames>
+					<viewpopupinfo> 1 </viewpopupinfo>
+					<viewportnames> 1 </viewportnames>
+					<viewoutputvalues> 1 </viewoutputvalues>
+					<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+					<viewconnectionlabels> 0 </viewconnectionlabels>
+					<viewishidden> 0 </viewishidden>
+					<basesize> 10.000000 10.000000 </basesize>
+					<localposition> 0.375000 0.100000 </localposition>
+					<portnumber> 1 </portnumber>
+				</inputport>
+				<inputport>
+					<type> "SMOK::InputPort" </type>
+					<name> "W0E" </name>
+					<tag> 0052e658 </tag>
+					<width> 1 </width>
+					<viewcomponentnames> 1 </viewcomponentnames>
+					<viewpopupinfo> 1 </viewpopupinfo>
+					<viewportnames> 1 </viewportnames>
+					<viewoutputvalues> 1 </viewoutputvalues>
+					<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+					<viewconnectionlabels> 0 </viewconnectionlabels>
+					<viewishidden> 0 </viewishidden>
+					<basesize> 10.000000 10.000000 </basesize>
+					<localposition> 0.750000 0.100000 </localposition>
+					<portnumber> 2 </portnumber>
+				</inputport>
+			</component>
+			<component>
+				<type> "SMOK::ReadPortSet" </type>
+				<name> "ReadPortSet 1" </name>
+				<tag> 0052e978 </tag>
+				<width> 32 </width>
+				<viewcomponentnames> 1 </viewcomponentnames>
+				<viewpopupinfo> 1 </viewpopupinfo>
+				<viewportnames> 1 </viewportnames>
+				<viewoutputvalues> 1 </viewoutputvalues>
+				<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+				<viewconnectionlabels> 0 </viewconnectionlabels>
+				<viewishidden> 0 </viewishidden>
+				<basesize> 10.000000 80.000000 </basesize>
+				<localposition> 0.292810 0.000000 </localposition>
+				<traceactivity> 1 </traceactivity>
+				<inputport>
+					<type> "SMOK::InputPort" </type>
+					<name> "R1#" </name>
+					<tag> 0052ec78 </tag>
+					<width> 5 </width>
+					<viewcomponentnames> 1 </viewcomponentnames>
+					<viewpopupinfo> 1 </viewpopupinfo>
+					<viewportnames> 1 </viewportnames>
+					<viewoutputvalues> 1 </viewoutputvalues>
+					<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+					<viewconnectionlabels> 0 </viewconnectionlabels>
+					<viewishidden> 0 </viewishidden>
+					<basesize> 10.000000 10.000000 </basesize>
+					<localposition> 0.000000 0.012500 </localposition>
+					<portnumber> 0 </portnumber>
+				</inputport>
+				<outputport>
+					<type> "SMOK::OutputPort" </type>
+					<name> "R1" </name>
+					<tag> 0052ef90 </tag>
+					<width> 32 </width>
+					<viewcomponentnames> 1 </viewcomponentnames>
+					<viewpopupinfo> 1 </viewpopupinfo>
+					<viewportnames> 1 </viewportnames>
+					<viewoutputvalues> 1 </viewoutputvalues>
+					<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+					<viewconnectionlabels> 0 </viewconnectionlabels>
+					<viewishidden> 0 </viewishidden>
+					<basesize> 10.000000 10.000000 </basesize>
+					<localposition> 0.000000 0.862500 </localposition>
+					<portnumber> 0 </portnumber>
+				</outputport>
+			</component>
+		</registerfile>
+	</container>
+	<component>
+		<type> "SMOK::PasserelleOutput" </type>
+		<tag> 004f2b50 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 0 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 32.000000 32.000000 </basesize>
+		<localposition> 0.686352 0.369184 </localposition>
+		<localscale> 0.442257 </localscale>
+		<traceactivity> 1 </traceactivity>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<tag> 004f2e28 </tag>
+			<width> 5 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.343750 0.031250 </localposition>
+			<portnumber> 0 </portnumber>
+		</inputport>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<tag> 004f3140 </tag>
+			<width> 32 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 0 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.343750 0.656250 </localposition>
+			<portnumber> 0 </portnumber>
+		</outputport>
+	</component>
+	<component>
+		<type> "SMOK::PLA" </type>
+		<name> "Main Control" </name>
+		<tag> 004f0140 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 40.000000 40.000000 </basesize>
+		<localposition> 0.765092 0.163326 </localposition>
+		<traceactivity> 1 </traceactivity>
+		<loadedfrom> "Z:\Users\ben\Documents\CS3330\3330labs\lab4\Control.smokpla" </loadedfrom>
+		<loadedfromrelative> ".\Control.smokpla" </loadedfromrelative>
+		<pladatamap>
+			0	122
+			4	145
+			23	f0
+			2b	1c8
+		</pladatamap>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<name> "Func" </name>
+			<tag> 004f0830 </tag>
+			<width> 6 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.333333 0.000000 </localposition>
+			<portnumber> 0 </portnumber>
+		</inputport>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<name> "RegDst" </name>
+			<tag> 004f04b0 </tag>
+			<width> 1 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.100000 0.725000 </localposition>
+			<portnumber> 0 </portnumber>
+		</outputport>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<name> "ALUSrc" </name>
+			<tag> 004f0b48 </tag>
+			<width> 1 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.200000 0.725000 </localposition>
+			<portnumber> 1 </portnumber>
+		</outputport>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<name> "MemtoReg" </name>
+			<tag> 004f0e40 </tag>
+			<width> 1 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.300000 0.725000 </localposition>
+			<portnumber> 2 </portnumber>
+		</outputport>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<name> "RegWrite" </name>
+			<tag> 004f1138 </tag>
+			<width> 1 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.400000 0.725000 </localposition>
+			<portnumber> 3 </portnumber>
+		</outputport>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<name> "MemRead" </name>
+			<tag> 004f1430 </tag>
+			<width> 1 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.500000 0.725000 </localposition>
+			<portnumber> 4 </portnumber>
+		</outputport>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<name> "MemWrite" </name>
+			<tag> 004f1738 </tag>
+			<width> 1 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.600000 0.725000 </localposition>
+			<portnumber> 5 </portnumber>
+		</outputport>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<name> "Branch" </name>
+			<tag> 004f1a30 </tag>
+			<width> 1 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.700000 0.725000 </localposition>
+			<portnumber> 6 </portnumber>
+		</outputport>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<name> "ALUop" </name>
+			<tag> 004f1d58 </tag>
+			<width> 2 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.800000 0.725000 </localposition>
+			<portnumber> 7 </portnumber>
+		</outputport>
+	</component>
+	<connection>
+		<tag> 005141f0 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.475763 0.436500 </localposition>
+		<fromtag> 004e73b0 </fromtag>
+		<totag> 004f8938 </totag>
+		<relpath>
+			0.586477 0.475763 2 0
+			0.584473 0.475763 0 1
+			0.584473 0.587170 1 1
+			0.584487 0.587170 0 1
+			0.584487 0.698577 1 1
+			0.436500 0.698577 0 0
+		</relpath>
+	</connection>
+	<connection>
+		<tag> 004eb508 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.000000 0.000000 </localposition>
+		<fromtag> 004f3140 </fromtag>
+		<totag> 00455f70 </totag>
+		<relpath>
+			0.401045 0.694655 2 0
+			0.391954 0.694655 0 1
+			0.391954 0.694666 1 1
+			0.386070 0.694666 0 1
+			0.386070 0.694677 1 1
+			0.381648 0.694677 0 0
+		</relpath>
+	</connection>
+	<component>
+		<type> "SMOK::PLA" </type>
+		<name> "ALU Control" </name>
+		<tag> 004ed688 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 40.000000 40.000000 </basesize>
+		<localposition> 0.677008 0.401045 </localposition>
+		<traceactivity> 1 </traceactivity>
+		<loadedfrom> "Z:\Users\ben\Documents\CS3330\3330labs\lab4\alu_cont.smokpla" </loadedfrom>
+		<loadedfromrelative> ".\alu_cont.smokpla" </loadedfromrelative>
+		<pladatamap>
+			0	2
+			1	6
+			4	2
+			5	6
+			8	2
+			9	6
+			c	2
+			d	6
+			10	2
+			11	6
+			14	2
+			15	6
+			18	2
+			19	6
+			1c	2
+			1d	6
+			20	2
+			21	6
+			24	2
+			25	6
+			28	2
+			29	6
+			2c	2
+			2d	6
+			30	2
+			31	6
+			34	2
+			35	6
+			38	2
+			39	6
+			3c	2
+			3d	6
+			40	2
+			41	6
+			44	2
+			45	6
+			48	2
+			49	6
+			4c	2
+			4d	6
+			50	2
+			51	6
+			54	2
+			55	6
+			58	2
+			59	6
+			5c	2
+			5d	6
+			60	2
+			61	6
+			64	2
+			65	6
+			68	2
+			69	6
+			6c	2
+			6d	6
+			70	2
+			71	6
+			74	2
+			75	6
+			78	2
+			79	6
+			7c	2
+			7d	6
+			80	2
+			81	6
+			82	2
+			84	2
+			85	6
+			88	2
+			89	6
+			8a	6
+			8c	2
+			8d	6
+			90	2
+			91	6
+			92	0
+			94	2
+			95	6
+			96	1
+			98	2
+			99	6
+			9c	2
+			9d	6
+			a0	2
+			a1	6
+			a4	2
+			a5	6
+			a8	2
+			a9	6
+			aa	7
+			ac	2
+			ad	6
+			b0	2
+			b1	6
+			b4	2
+			b5	6
+			b8	2
+			b9	6
+			bc	2
+			bd	6
+			c0	2
+			c1	6
+			c4	2
+			c5	6
+			c8	2
+			c9	6
+			cc	2
+			cd	6
+			d0	2
+			d1	6
+			d4	2
+			d5	6
+			d8	2
+			d9	6
+			dc	2
+			dd	6
+			e0	2
+			e1	6
+			e4	2
+			e5	6
+			e8	2
+			e9	6
+			ec	2
+			ed	6
+			f0	2
+			f1	6
+			f4	2
+			f5	6
+			f8	2
+			f9	6
+			fc	2
+			fd	6
+		</pladatamap>
+		<outputport>
+			<type> "SMOK::OutputPort" </type>
+			<name> "ALUCont" </name>
+			<tag> 004e73b0 </tag>
+			<width> 3 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.333333 0.725000 </localposition>
+			<portnumber> 0 </portnumber>
+		</outputport>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<name> "F" </name>
+			<tag> 00455f70 </tag>
+			<width> 6 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.250000 0.000000 </localposition>
+			<portnumber> 0 </portnumber>
+		</inputport>
+		<inputport>
+			<type> "SMOK::InputPort" </type>
+			<name> "ALUOp" </name>
+			<tag> 0045dd08 </tag>
+			<width> 2 </width>
+			<viewcomponentnames> 1 </viewcomponentnames>
+			<viewpopupinfo> 1 </viewpopupinfo>
+			<viewportnames> 1 </viewportnames>
+			<viewoutputvalues> 1 </viewoutputvalues>
+			<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+			<viewconnectionlabels> 0 </viewconnectionlabels>
+			<viewishidden> 0 </viewishidden>
+			<isshadow> 1 </isshadow>
+			<basesize> 10.000000 10.000000 </basesize>
+			<localposition> 0.500000 0.000000 </localposition>
+			<portnumber> 1 </portnumber>
+		</inputport>
+	</component>
+	<connection>
+		<tag> 004f1ed0 </tag>
+		<width> 32 </width>
+		<viewcomponentnames> 1 </viewcomponentnames>
+		<viewpopupinfo> 1 </viewpopupinfo>
+		<viewportnames> 1 </viewportnames>
+		<viewoutputvalues> 1 </viewoutputvalues>
+		<viewselectedconnectionsonly> 0 </viewselectedconnectionsonly>
+		<viewconnectionlabels> 0 </viewconnectionlabels>
+		<viewishidden> 0 </viewishidden>
+		<basesize> 1.000000 1.000000 </basesize>
+		<localposition> 0.706420 0.194235 </localposition>
+		<fromtag> 004f1d58 </fromtag>
+		<totag> 0045dd08 </totag>
+		<relpath>
+			0.401045 0.706420 2 0
+			0.382863 0.706420 0 1
+			0.382863 0.819730 1 1
+			0.194235 0.819730 0 1
+			0.194235 0.814504 1 0
+		</relpath>
+	</connection>
+</container>
+</smokfile>

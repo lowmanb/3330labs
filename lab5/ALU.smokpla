@@ -1,0 +1,30 @@
+# According Figure 4.13 truth table
+
+
+
+#<smokplafile>
+
+#<decodetypes>            add     sub    add    sub    and   or   slt       </decodetypes>
+
+#<inputsignal>    F5       X       X      X      X      X     X    X         </inputsignal>
+#<inputsignal>    F4       X       X      X      X      X     X    X         </inputsignal>
+#<inputsignal>    F3       X       X      0      0      0     0    1         </inputsignal>
+#<inputsignal>    F2       X       X      0      0      1     1    0         </inputsignal>
+#<inputsignal>    F1       X       X      0      1      0     0    1         </inputsignal>
+#<inputsignal>    F0       X       X      0      0      0     1    0         </inputsignal>
+#<inputsignal>    ALUop    00      X1     1X     1X     1X    1X   1X        </inputsignal>
+
+
+#<outputsignal>   Oper    0010    0110   0010   0110   0000  0001  0111      </outputsignal>
+
+#</smokplafile>
+
+
+
+<smokplafile>
+<decodetypes>                 add       sub      add      sub     and      or      slt       </decodetypes>
+<inputsignal>     Funct      XXXXXX    XXXXXX   XX0000   XX0010  XX0100   XX0101  XX1010     </inputsignal>
+<inputsignal>    ALUop        00        X1       1X       1X      1X      1X       1X        </inputsignal>
+<outputsignal>   Oper         0010      0110     0010     0110    0000     0001    0111      </outputsignal>
+
+</smokplafile>
